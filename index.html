@@ -11,7 +11,7 @@
 
 </head>
 <body>
-
+<div>
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-default shadowbox">
 		<div class="container">
 			<a class="navbar-brand" href="index.html">
@@ -29,13 +29,13 @@
 						<a class="nav-link" href="index.html">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#aboutme-container">About Me</a>
+						<a class="nav-link" href="#aboutmelanding">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#projectstitle">Projects</a>
+						<a class="nav-link" href="#skillslanding">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.html">Skills</a>
+						<a class="nav-link" href="#projectslanding">Projects</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contactme" id="nav-contact">Contact me</a>
@@ -53,8 +53,10 @@
 	</div>
 <!-- end of header -->
 	<div style="background-image: url(assets/images/profile.jpg);
-	background-size: auto 50em; background-position: center;" id="profile" class="shadowbox"> </div>
+	background-position: center;" id="profile" class="shadowbox"> </div>
 <!-- end of profile pic box -->
+	<span id="aboutmelanding" class="landing">&nbsp;</span>
+<!-- end of landing for about me -->
 	<div id="aboutme-container" class="card-body shadowbox">
 		<h2 class="subtitletext">About me</h2><br>
 		<p>Hi! I'm Mary Joanne Pauline C. Arnante - responsive web developer, licensed interior designer and graphic designer.  I am an avid learner of a variety of fields such as the arts, sciences, and philosophy. All the theories and concepts that I've learned from such a diverse array of fields keep my work inspired and exemplary. She always strives to be insightful and creative with her work, with culture and innovation playing influential roles in the way she creates. Apart from design and the arts, she is also passionate about innovations in technology, education and social service. She would like to join (or maybe start) a startup someday with her friends.<br><br>
@@ -63,6 +65,7 @@
 		<em>Design with thought.</em> Effective design is data processed and realized in its most fluent form.</p>
 	</div>
 <!-- end of about me -->
+<span id="skillslanding" class="landing">&nbsp;</span>
 	<div id="skills" class="fluid-container">
 		<div class="container">
 			<div class="card-body boxleft">
@@ -70,7 +73,7 @@
 				<p>I’m currently studying full-stack web development under the Bootcamp program of Tuitt Inc. I've made 3 capstone projects that showcases my current technical skills level.</p><br>
 <!-- end of tech skills header -->
 				HTML
-				<table>
+				<table class="techtable">
 					<tr>
 						<td style="background-color: #D3C2AB;"></td>
 						<td style="background-color: #D3C2AB;"></td>
@@ -79,22 +82,22 @@
 					</tr>
 				</table>
 				CSS
-				<table>
+				<table class="techtable">
 					<tr>
 						<td style="background-color: #D3C2AB;"></td>
 						<td style="background-color: #D3C2AB;"></td>
 						<td style="background-color: #D3C2AB;"></td>
 						<td></td>
 					</tr>
-				</table>
+				</table >
 				Bootstrap
-				<table>
+				<table class="techtable">
 					<tr>
 						<td style="background-color: #D3C2AB;"></td><td></td><td></td><td></td>
 					</tr>
 				</table>
 				UI / UX
-				<table>
+				<table class="techtable">
 					<tr>
 						<td style="background-color: #D3C2AB;"></td><td></td><td></td><td></td>
 					</tr>
@@ -104,10 +107,33 @@
 			<div class="card-body boxright">
 				<h2 class="subtitletext">What I'm doing</h2><br>
 				<p>Apart from front-end responsive web development, I’m also a seasoned interior designer and graphic designer with a diverse array of skills.</p>
+				<table id="whatimdoing"">
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/3d.png"></td>
+						<td>Branding / Marketing</td>
+					</tr>
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/3d.png"></td>
+						<td>Interior Design</td>
+					</tr>
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/3d.png"></td>
+						<td>Graphic Design</td>
+					</tr>
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/3d.png"></td>
+						<td>3D Design</td>
+					</tr>
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/3d.png"></td>
+						<td>Project Management</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 	</div>
 <!-- end of technical skills -->
+<span id="projectslanding" class="landing">&nbsp;</span>
 	<div class="container">
 		<h2 class="subtitletext" id="projectstitle">Projects</h2>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -118,7 +144,7 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="..." class="d-block w-100" alt="...">
+					<img src="assets/images/capstone1.jpg" class="d-block w-100" alt="...">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>...</h5>
 							<p>...</p>
@@ -146,7 +172,23 @@
 		<div class="container">
 			<div class="card-body boxleft">
 				<h2 class="subtitletext">Contact me</h2><br>
-				<p>Interested in working together? Let's talk!<br>Contact me through any of the following lines.</p><br>
+				<p>Interested in working together? Let's talk!<br>Contact me through any of the following lines.</p>
+				<table id="whatimdoing">
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/address.png"></td>
+						<td>West Ave., Quezon City, Philippines</td>
+					</tr>
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/email.png"></td>
+						<td>arnante.joanne@gmail.com</td>
+					</tr>
+					<tr id="whatimdoingrow">
+						<td><img class="smallicons" src="assets/images/mobile.png"></td>
+						<td>+63 977 943 2011</td>
+					</tr>
+				</table><br>
+<!-- google map -->
+<iframe src="https://maps.google.com/maps?q=west%20avenue&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 <!-- end of tech skills header -->
 				
 <!-- end of skills sliders -->
@@ -161,19 +203,19 @@
 						</div>
 						<div class="col">
 							<label for="lastname">Last Name</label>
-							<input type="text" id="lastname" class="form-control" placeholder="Last name">
+							<input type="text" id="lastname" class="form-control" placeholder="Last name"><br>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col">
 							<label for="inputEmail4">Email</label>
-	      					<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+	      					<input type="email" class="form-control" id="inputEmail" placeholder="Email"><br>
       					</div>
     				</div>
   					<div class="row">
   						<div class="col">
 							<label for="message">Message</label>
-							<textarea class="form-control" id="message" placeholder="Your message here..." required></textarea>
+							<textarea class="form-control" id="message" placeholder="Your message here..." required></textarea><br>
       					</div>
     				</div>
     				<div class="row">
@@ -185,6 +227,17 @@
 			</div>
 		</div>
 	</div>
+</div>
+<!-- end of contact box -->
+<footer>
+	<div id="social">
+		<img class="smallicons" src="assets/images/instagram.png">
+		<img class="smallicons" src="assets/images/facebook.png">
+		<img class="smallicons" src="assets/images/email.png">
+		<img class="smallicons" src="assets/images/pinterest.png">
+	</div>
+		<p>Copyright &copy;2019. Joanne Arnante. All rights reserved.</p>
+</footer>
 <!-- end of body content -->
  	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
