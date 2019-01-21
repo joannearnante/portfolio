@@ -43,6 +43,7 @@ a > small {
 
 #titlebox {
 	margin-top: 16.5em;
+	margin-left: 5em;
 }
 
 .titletext {
@@ -128,6 +129,35 @@ a > small {
 	top: -3em;
 }
 
+#projects {
+	display: flex;
+  	justify-content: space-between;
+}
+
+.card {
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	padding: 1em;
+	height: 40em;
+	border-radius: 0;
+}
+
+.card-img-top {
+	height: 20em;
+	object-fit: contain;
+}
+
+.openproject {
+	position: absolute;
+	bottom: 3em;
+	background-color: #D3C2AB;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	color: white;
+
+}
+
 #projectstitle {
 	margin: 1em;
 	text-align: center;
@@ -189,13 +219,18 @@ footer {
 /*end of styling, begin screen sizes*/
 
 /*tablet size*/
-@media screen and (min-width: 376px) and (max-width: 768px) {
+@media screen and (min-width: 376px) and (max-width: 1024px) {
     #card-image {
 	position: absolute;
 	top: 30em;
 	height: 35.8em;
 	width: 100%;
 	z-index: -1;
+	}
+
+	#titlebox {
+	margin-top: 16.5em;
+	margin-left: 3em;
 	}
 
     .titletext {
@@ -248,23 +283,38 @@ footer {
 	#contactme {
 	height: 83em;
 	}
+
+	#projects {
+	display: block;
+  	justify-content: space-between;
+  	width: 100%;
+	}
+
+	.card {
+	width: 100%;
+	margin-top: 2em;
+	padding: 1em;
+	height: 40em;
+	}
+
 }
 
 /*phone*/
 @media screen and (max-width: 375px) {
-   #card-image {
+    #card-image {
 	position: absolute;
 	top: 30em;
-	height: 35.8em;
+	height: 61.50em;
 	width: 100%;
 	z-index: -1;
 	}
 
 	#titlebox {
-	margin-top: 8em;
+	margin-top: 10em;
+	margin-left: 0em;
 	}
 
-	.titletext {
+    .titletext {
 		font-size: 4em;
 	}
 
@@ -274,21 +324,22 @@ footer {
 
     #profile {
 		position: absolute;
-		top: 22em;
+		top: 25em;
 		left: 30%;
 		height: 20em;
 		width: 15em;
-		background-size: 35em;
+		background-size: 30em;
 	}
 
 	#aboutme-container {
 	margin-top: 25em;
-	width: 80%;
+	width: 90%;
 	padding: 3em;
+	margin-left: 1em;
 	}
 
 	#skills {
-		height: 60em;
+		height: 70em;
 	}
 
 	.carousel {
@@ -314,5 +365,20 @@ footer {
 	#contactme {
 	height: 83em;
 	}
-}
+
+	#projects {
+	display: block;
+  	justify-content: space-between;
+  	width: 100%;
+	}
+
+	.card {
+	width: 100%;
+	margin-top: 2em;
+	padding: 1em;
+	height: 40em;
+	}
+
+
+
 }
