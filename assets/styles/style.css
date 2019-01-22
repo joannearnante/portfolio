@@ -167,6 +167,11 @@ a > small {
 	height: 50em;
 }
 
+#contactmelanding {
+	position: relative;
+	top: 0em;
+}
+
 #contactme {
 	background-color: white;
 	margin-top: 3em;
@@ -250,6 +255,11 @@ footer {
 		background-size: 50em;
 	}
 
+	#aboutmelanding {
+	position: relative;
+	top: 3em;
+	}
+
 	#aboutme-container {
 	margin-top: 10em;
 	width: 80%;
@@ -329,6 +339,11 @@ footer {
 		height: 20em;
 		width: 15em;
 		background-size: 30em;
+	}
+
+	#aboutmelanding {
+	position: relative;
+	top: 22em;
 	}
 
 	#aboutme-container {
