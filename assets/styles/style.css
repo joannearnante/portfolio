@@ -222,7 +222,7 @@ footer {
 /*end of styling, begin screen sizes*/
 
 /*small tablet size*/
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 	#card-image {
 	position: absolute;
 	top: 29em;
@@ -305,19 +305,19 @@ footer {
 	}
 
 }
-}
+
 /*large tablet size*/
-@media screen and (min-width: 1200px) and (max-width: 1300px) {
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
     #card-image {
 	position: absolute;
-	top: 29em;
+	top: 26.5em;
 	height: 35.8em;
 	width: 100%;
 	z-index: -1;
 	}
 
 	#titlebox {
-	margin-top: 15em;
+	margin-top: 12em;
 	}
 
     .titletext {
@@ -325,14 +325,14 @@ footer {
 	}
 
 	.subtitletext {
-		font-size: 1.5em;
+		font-size: 2em;
 	}
 
     #profile {
 		position: absolute;
 		top: 15%;
-		left: 60%;
-		height: 40%;
+		left: 55%;
+		height: 32em;
 		width: 35%;
 		background-size: auto 100%;
 	}
@@ -343,7 +343,7 @@ footer {
 	}
 
 	#aboutme-container {
-	margin-top: 18em;
+	margin-top: 15em;
 	width: 100%;
 	padding: 3em;
 	}
